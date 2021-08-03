@@ -268,7 +268,7 @@ async def rename(bot, message):
             return
         description = "<b>" + file_name + "</b>"
         download_location = DOWNLOAD_LOCATION + "/"
-        thumb_image_path = download_location + "asv " + str(message.from_user.id) + ".jpg"
+        thumb_image_path = download_location + "FayasNoushad " + str(message.from_user.id) + ".jpg"
         if not os.path.exists(thumb_image_path):
             mes = await thumb(message.from_user.id)
             if mes != None:
